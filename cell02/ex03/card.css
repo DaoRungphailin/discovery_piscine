@@ -1,6 +1,9 @@
 h1 {
     text-align: center;
 }
+body{
+    background-color: bisque;
+}
 table, th, td{
     display: flex;
     justify-content: center;
