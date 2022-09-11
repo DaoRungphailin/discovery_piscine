@@ -1,0 +1,22 @@
+
+body{
+    background-color: cadetblue;
+}
+button {
+	color: black;
+    cursor: pointer;
+    padding: 10px 80px;
+    background-color: white;
+    font-size: 20px;
+
+}
+button:hover{
+    box-shadow: 0 0 20px 0;
+}
+.center{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
