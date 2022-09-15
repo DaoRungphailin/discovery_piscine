@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+}
+table{
+    width:100%
+}
+tr {
+    height: 100vh;
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.bg1:nth-child(1){
+    background-color:gold ;
+}
+.bg1:nth-child(2){
+    background-color:cornflowerblue ;
+}
+.bg {
+    text-align: center;
+}

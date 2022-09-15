@@ -1,0 +1,17 @@
+h1 {text-align: center;
+    color: black;}
+body{
+    background-color:rgb(224, 186, 129);
+    }
+p{
+    font-size:500%;
+}
+select{
+    border: 3px solid  chocolate;
+    border-collapse: collapse;
+    background-color:rgb(255, 196, 0) ;
+    }
+div {
+    display: flex;
+    justify-content: space-evenly;
+    }

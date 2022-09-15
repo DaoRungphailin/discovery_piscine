@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(246, 200, 49);
+    text-align: center;
+}
+select {
+    border: 3px solid rgb(240, 80, 40);
+    border-collapse: collapse;
+    background-color: rgb(247, 215, 111);
+}
+.b{
+    background-color: rgb(247, 215, 111);
+}

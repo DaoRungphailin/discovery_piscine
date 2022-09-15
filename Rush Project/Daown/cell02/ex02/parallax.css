@@ -1,0 +1,31 @@
+body,
+html {
+  height: 100%;
+}
+
+div {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color:black;
+    font-size:30px;
+    color: white;
+}
+
+.bg1 {
+    background-image: url("https://64.media.tumblr.com/d7371e80ef892140c37909e1e3829280/tumblr_nqjl8zGuyW1r6mlnso1_500.jpg");
+    height: 100%;
+}
+.bg2 {
+    background-image: url("https://i.pinimg.com/564x/42/fe/e0/42fee00e9f7fbd673dd2c5f418e58f04.jpg");
+    height: 100%;
+}

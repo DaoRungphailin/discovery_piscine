@@ -1,0 +1,56 @@
+body, html {
+    height: 100vh;
+  }
+    /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+  }
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .parallax1 {
+    /* The image used */
+    background-image: url('https://www.latercera.com/resizer/ky24f9wwjyLrDrzwjJJrgQzu5Xc=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/Q6WJ6FP72FAIVLHVABJD667HB4.jpg');
+    
+    /* Full height */
+    height: 100vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url('https://www.mistersnake.com/wp-content/uploads/2022/04/021.png');
+  
+    /* Full height */
+    height: 100vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .blackBox{
+    height:1000px; 
+    background-color:black;
+
+  }
+
+
+

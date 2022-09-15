@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+body{
+    background-color: #7189a5ed;
+}
+table, th, td{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color:rgb(238, 190, 198);
+}
+div{
+    border: 1px solid black;
+    width: fit-content;
+    height:fit-content;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+i{
+    font-size:25px;
+    color:black;
+}
+button {
+	display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 350px;
+    
+}
+a:link{
+    text-decoration: none;
+}
+
+

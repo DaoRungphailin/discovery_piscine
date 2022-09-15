@@ -1,0 +1,55 @@
+#home {
+    height: 100vh;
+    text-align: center;
+    font-size: 3.3rem;
+    animation: movecolor 5s infinite;
+  }
+  
+  /*animetoin BGcolor*/
+  @keyframes movecolor {
+  from {background-color :rgb(237, 145, 125);}
+  to{background-color: rgb(250, 212, 156); }
+  }
+  .header{
+    padding: 1rem;
+  }
+  /*Home click*/
+  span {
+    margin: 5rem;
+   
+   }
+   span.box{
+     border: 0.313rem solid rgb(78, 70, 70);
+     border-radius: 1.875rem;
+     padding: 0.625rem;
+     font-size: 3.125rem ;
+     line-height: 2;
+     
+   }
+   span:hover{
+       background-color: rgb(247, 240, 227);
+       box-shadow: 0 0 0.60rem 0;
+   }
+  /* Poflie*/
+  
+  img{
+    width:18rem;
+    height: 18rem;
+    border-radius: 50%;
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+  }
+  
+  h2{
+    font-size: 1.4rem;
+    padding-top: 1%;
+  }
+  
+  a{
+    text-decoration: none;
+    text-align: center;
+    color:  rgb(61, 55, 55);
+  }
+  marquee{
+    font-size: 20px;
+  }
