@@ -6,4 +6,5 @@ An introduction to web development using HTML, java script and CSS.
 
 The RUSH-Project is a team project with 2 people that involves creating a portfolio website using HTML, JavaScript, and CSS. Team Member GitHub: ThitarThitaporn
 
-![rsamanan@student 42bangkok com](https://github.com/DaoRungphailin/Rush-Project/assets/88391247/f28b80a7-7742-4b54-aec9-aaa47b7fcb18)
+
+![rsamanan@student 42bangkok com](https://github.com/DaoRungphailin/discovery_piscine/assets/88391247/5b435cbc-e800-476e-ba37-25de6dc712b7)
