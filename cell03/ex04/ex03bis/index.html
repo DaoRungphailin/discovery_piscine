@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TO DO LIST</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" 
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" 
+    crossorigin="anonymous"></script>
+  </head>
+  <style>
+    body {
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+    button {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 20px;
+    }
+
+    .ft_list {
+        display: flex;
+				flex-direction: column;
+			}
+
+    h1,button {
+      margin-bottom: 20px;
+    }
+
+  </style>
+  <body>
+    <div>
+      <h1>TO DO LIST</h1>
+      <div class="ft_list" id="ft_list"></div>
+      <button id="newButton">New</button>
+    </div>
+  </body>
+  <script src="todo.js"></script>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(60, 60, 60);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+.space{
+    margin: 10px;
+}
+input{
+    padding: 10px 10px;
+}
+select{
+    padding: 5px 5px;
+}

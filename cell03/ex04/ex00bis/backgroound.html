@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="backgroound.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" 
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" 
+    crossorigin="anonymous"></script>
+    <title> backgroound </title>
+</head>
+<body class="center">
+    <button id ='button'> Click me!</button>
+</body>
+<script>
+
+$(document).ready(function() {
+    $('#button').click(() =>{
+        const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+        let colorB = $("body").css("background-color", randomColor);
+    })
+
+});
+
+</script>
+</html>
