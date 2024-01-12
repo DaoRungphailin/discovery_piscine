@@ -1,3 +1,4 @@
+
 body{
     background-color: cadetblue;
 }
@@ -14,8 +15,8 @@ button:hover{
 }
 .center{
     display: flex;
-    width: 98vw;
-    height: 97vh;
+    width: 90vw;
+    height: 90vh;
     justify-content: center;
     align-items: center;
 }
